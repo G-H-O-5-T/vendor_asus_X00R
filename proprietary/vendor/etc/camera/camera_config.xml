@@ -90,11 +90,11 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>s5k3l8_holitech</SensorName>
+    <SensorName>s5k3l8_lcetron</SensorName>
     <ActuatorName>cn3937</ActuatorName>
     <FlashName>pmic</FlashName>
 	<EepromName>s5k3l8_gt24c64</EepromName>
-    <ChromatixName>s5k3l8_holitech_chromatix</ChromatixName>
+    <ChromatixName>s5k3l8_lcetron_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -138,36 +138,63 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
+  <!--CameraModuleConfig>
+    <CameraId>0</CameraId>
     <SensorName>s5k4h7</SensorName>
-    <!-- <ActuatorName>cn3937</ActuatorName> -->
+    <ActuatorName>cn3937_s5k4h7</ActuatorName>
     <FlashName>pmic</FlashName>
     <EepromName>s5k4h7_gt24c64</EepromName>
     <ChromatixName>s5k4h7_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>1</CSIDCore>
+      <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
-     <LensInfo>
-      <FocalLength>1.57</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>1.33</TotalFocusDistance>
-      <HorizontalViewAngle>101</HorizontalViewAngle>
-      <VerticalViewAngle>83.4</VerticalViewAngle>
-      <MinFocusDistance>0.27</MinFocusDistance>
+    <LensInfo>
+      <FocalLength>2.85</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>5.0</TotalFocusDistance>
+      <HorizontalViewAngle>64.8</HorizontalViewAngle>
+      <VerticalViewAngle>50.9</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig> -->
+  <!-- add by yukai start -->
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>s5k4h7</SensorName>
+    <ActuatorName>cn3937</ActuatorName>
+    <FlashName>pmic</FlashName>
+    <EepromName>s5k4h7_gt24c64</EepromName>
+    <ChromatixName>s5k4h7_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.83</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.97</TotalFocusDistance>
+      <HorizontalViewAngle>63.2</HorizontalViewAngle>
+      <VerticalViewAngle>49.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+  <!-- add by yukai end -->
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>s5k5e8</SensorName>
-    <EepromName>s5k5e8_holitech</EepromName>
-    <FlashName>pmic</FlashName>
+	<EepromName>s5k5e8_holitech</EepromName>
+	<FlashName>pmic</FlashName>
     <ChromatixName>s5k5e8_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
@@ -207,7 +234,7 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>3.57</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>5.0</TotalFocusDistance>
-      <HorizontalViewAngle>65</HorizontalViewAngle>
+      <HorizontalViewAngle>63.6</HorizontalViewAngle>
       <VerticalViewAngle>51.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
@@ -279,7 +306,7 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>3.51</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>0.53</TotalFocusDistance>
-      <HorizontalViewAngle>65.5</HorizontalViewAngle>
+      <HorizontalViewAngle>64.5</HorizontalViewAngle>
       <VerticalViewAngle>50.3</VerticalViewAngle>
       <MinFocusDistance>0.38</MinFocusDistance>
     </LensInfo>
@@ -300,39 +327,14 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.75</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>62.7</HorizontalViewAngle>
-      <VerticalViewAngle>49.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>2.33</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>0.66</TotalFocusDistance>
+      <HorizontalViewAngle>63.6</HorizontalViewAngle>
+      <VerticalViewAngle>49.8</VerticalViewAngle>
+      <MinFocusDistance>0.29</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov13858</SensorName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov13858_chromatix</ChromatixName>
-    <EepromName>ov13858_gt24c64</EepromName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1f</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.51</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>0.53</TotalFocusDistance>
-      <HorizontalViewAngle>65</HorizontalViewAngle>
-      <VerticalViewAngle>50.3</VerticalViewAngle>
-      <MinFocusDistance>0.38</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <!--chengyewei@wind-mobi.com 20180730 begin-->
     <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>gc8034</SensorName>
@@ -381,7 +383,30 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-  <!--chengyewei@wind-mobi.com 20180730 end-->
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>ov13858</SensorName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>ov13858_chromatix</ChromatixName>
+    <EepromName>ov13858_gt24c64</EepromName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1f</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.51</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>0.53</TotalFocusDistance>
+      <HorizontalViewAngle>64.5</HorizontalViewAngle>
+      <VerticalViewAngle>50.3</VerticalViewAngle>
+      <MinFocusDistance>0.38</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>ov8856_aux</SensorName>
@@ -428,6 +453,31 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>99.8</HorizontalViewAngle>
       <VerticalViewAngle>83.4</VerticalViewAngle>
       <MinFocusDistance>0.27</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>ov16880</SensorName>
+	<ActuatorName>gt9762_ov16880</ActuatorName>
+	<EepromName>ov16880_gt24c64</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>ov16880_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.52</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>5</TotalFocusDistance>
+      <HorizontalViewAngle>66.5</HorizontalViewAngle>
+      <VerticalViewAngle>50.3</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
